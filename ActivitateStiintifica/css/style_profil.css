@@ -1,0 +1,106 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 400;
+  background-color: #EEEFF4;
+}
+
+body,
+html,
+.App,
+.vertical-center {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar {
+  background: #008080 !important;
+  width: 100%;
+}
+
+/*HEADER*/
+.header {
+	background-color: #008080;
+  overflow: hidden;
+}
+
+.header a{
+	float: right;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.header a:hover {
+	background-color: white;
+	color: #008080;
+}
+
+.header a.active {
+  background-color: white;
+  color: #008080;
+}
+
+label {
+  font-weight: 500;
+}
+
+.card {
+  height: 650px;
+  width: 500px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 80px 55px 85px 55px;
+  transition: all .3s;
+  border-radius: 20px;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 30px;
+  line-height: 1;
+}
+
+.card-subtitle {
+  text-align: left;
+  font-size: 20px;
+  margin-top: 50px;
+  line-height: 1;
+  padding-bottom: 10px;
+}
+
+.card-text {
+  text-align: left;
+  font-size: 15px;
+  line-height: 1;
+  padding-bottom: 5px;
+}
+
+.btn-info {
+  margin-top: 60px;
+  border-color: #008080;
+  background-color: white;
+  color: #008080;
+}
+
+.btn-info:hover {
+  border-color: #008080;
+  background-color: #008080;
+  color: white;
+}
+
+/*FOOTER*/
+.footer a{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
